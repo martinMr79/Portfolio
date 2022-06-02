@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+      margin: 0;
+  }
+
+  nav {
+      display: flex;
+      justify-content: flex-end;
+      position: fixed;
+      background-color: black;
+      padding: 20px;
+      z-index: 11;
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+
+  nav a { 
+      color: bisque;
+      position: relative;
+      margin-left: 50px;
+      text-decoration: none; 
+  }
+
+  
+
+
+
+  .projects-container { 
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+  }
+
+  
+
+
+
+  
+  
+
