@@ -100,8 +100,14 @@
     text-decoration: none;
   }
 
+  .project-card p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
   .project-card img {
       max-width: 100%;
+      border: 1px solid black;
   }
   
 section {
