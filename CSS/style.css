@@ -91,9 +91,18 @@
       align-items: center;
       justify-content: center;
       max-width: 810px;
-      margin: 20px auto;
+      margin: 20px auto 0;
   }
 
+  .project-card {
+    margin: 10px;
+    max-width: 250px;
+    text-decoration: none;
+  }
+
+  .project-card img {
+      max-width: 100%;
+  }
   
 section {
     text-align: center;
