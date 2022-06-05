@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("../fonts/Roboto/Roboto-Black.ttf")
+    format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url("../fonts/Roboto/Roboto-Thin.ttf")
+      format("truetype");
+  }
+
 * {
     box-sizing: border-box;
   }
@@ -76,10 +88,8 @@
   header h1 {
       margin-bottom: 40px; 
       font-size: 57px;
-      font-family: 'roboto', sans-serif;
-      font-weight: 100;  
+      font-family: 'Roboto-Thin', sans-serif;
       text-transform: uppercase;
-
     }
 
 
