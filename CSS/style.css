@@ -54,6 +54,7 @@
       flex-direction: column;
       height: 100vh;
       position: relative;   
+      text-align: center;
   }
 
   header::after {
@@ -73,10 +74,10 @@
   }
 
   header h1 {
-      margin: 0 0 10px 170px;
-      font-size: 70px;
+      margin: 0px 0px 50px 120px;
+      font-size: 57px;
       font-family: 'Merriweather Sans', sans-serif;
-      font-weight: 400;  
+      font-weight: 100;  
       text-transform: uppercase;
 
     }
@@ -144,6 +145,7 @@ section {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border: 2px solid;
     border-radius: 50%;
     margin: 5px 20px;
     width: 50px;
@@ -152,6 +154,9 @@ section {
     color: blue
 }
 
-footer {
-    
+hr {
+    background-color: antiquewhite;    
+    color: bisque;
+    width: 80%;
+    height: 5px;
 }
