@@ -65,7 +65,7 @@
       bottom: 0;
       right: 0; 
       left: 0;
-      opacity: 0.75;
+      opacity: 0.8;
       color: white;
   }
 
@@ -74,7 +74,7 @@
   }
 
   header h1 {
-      margin: 0px 0px 50px 120px;
+      margin-bottom: 50px; 
       font-size: 57px;
       font-family: 'Merriweather Sans', sans-serif;
       font-weight: 100;  
@@ -87,16 +87,26 @@
     background-size: cover;
     width: 100%;
     height: 100vh;
-    
   }
 
+  .contact-button {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    padding: 12px 60px 12px 60px;
+    margin-top: 50px;
+    border: 1px solid white;
+}
+
   .projects-container { 
+      
       display: flex;
-      flex-direction: column;
+     
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
-      max-width: 810px;
       margin: 20px auto 0;
   }
 
@@ -122,12 +132,13 @@
   }
   
 section {
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .contactcolor {
     background-color: rgb(195, 204, 201);
+    width: 100%;
+    
 }
   
 .contact-ul {
@@ -137,7 +148,6 @@ section {
     justify-content: center;
     padding: 0;
     margin: 0;
-    
 }  
 
 .contact-ul a {
@@ -159,4 +169,39 @@ hr {
     color: bisque;
     width: 80%;
     height: 5px;
+}
+
+
+
+
+@media (max-width: 1000px) {
+    header h1 {
+        margin: 0;
+        font-size: 42px;
+  
+      }  
+}
+
+@media (max-width: 700px) {
+    header h1 {
+        margin: 0;
+        font-size: 33px;
+  
+      }  
+}
+
+@media (max-width: 500px) {
+    header h1 {
+        margin: 0;
+        font-size: 27px;
+  
+      }  
+}
+
+@media (max-width: 321px) {
+    header h1 {
+        margin: 0;
+        font-size: 19px;
+  
+      }  
 }
