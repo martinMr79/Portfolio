@@ -74,9 +74,9 @@
   }
 
   header h1 {
-      margin-bottom: 50px; 
+      margin-bottom: 40px; 
       font-size: 57px;
-      font-family: 'Merriweather Sans', sans-serif;
+      font-family: 'roboto', sans-serif;
       font-weight: 100;  
       text-transform: uppercase;
 
@@ -98,6 +98,7 @@
     padding: 12px 60px 12px 60px;
     margin-top: 50px;
     border: 1px solid white;
+    border-radius: 7px;
 }
 
   .projects-container { 
@@ -183,7 +184,7 @@ footer p {
 
 @media (max-width: 1000px) {
     header h1 {
-        margin: 0;
+        margin-bottom: 18px;
         font-size: 42px;
   
       }  
