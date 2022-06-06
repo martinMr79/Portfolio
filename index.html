@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/contact-form.css">
     <script
     src="https://kit.fontawesome.com/bbebfafa64.js"
     crossorigin="anonymous"
@@ -24,14 +25,58 @@
       <!--<p>***Going to about section*** After working many years as a airfreight supervisor, i decided to take a leap of faith, and follow a dream, and pursue a carer within web-development</p> --> 
       <a href="#contact" class="contact-button">Contact me</a>
     </header>
+
     <section id="projects">	
 		<h2>Projects</h2>
     <div class="projects-container">
         <a href="" class="project-card"><img src="Images/Travel-blog.jpg" alt=""><p>Happy Traveler</p></a>
         <a href="" class="project-card"><img src="Images/Museum.jpg" alt=""><p>Community Science Museum</p></a>
         <a href="" class="project-card"><img src="Images/Rainy-days.jpg" alt=""><p>Rainy Days</p></a>
-        <section id="contact" class="contactcolor">
-            <h2>Contact</h2>
+    <section id="contact" class="contactcolor">
+            <h2>Contact</h2>  
+
+            <div>    
+              <div class="validform"></div>
+              </div> 
+            <main class= "container">
+              <form id="contactForm">
+          
+                <div>
+                  <label
+                    >Enter you full name
+                    <input name="name" id="name" />
+                  </label>
+                  <div class="form-error" id="nameError">Please enter full name (min 6 characters)</div>
+                </div>
+          
+                <div>
+                    <label
+                      >Subject
+                      <input name="subject" id="subject" />
+                    </label>
+                    <div class="form-error" id="subjectError">Please give me more details (min 16 characters long)</div>
+                  </div>
+          
+                <div>
+                  <label>
+                    Email is required
+                    <input name="email" id="email" />
+                  </label>
+                  <div class="form-error" id="emailError">Please enter a valid email address</div>
+                </div>
+          
+                <div>
+                    <label>Message
+                      <textarea class="message-input" name="message" id="messageForm"></textarea>
+                    </label>
+                    <div class="form-error" id="messageError">Please tell me more. Message must be more then 26 characters long</div>
+                </div>
+          
+                <div class="button-container">
+                  <button class="contact-form-button">Submit</button>             
+                </div>  
+                </form>
+
             <p>You can also reach me on...</p>
             <ul class="contact-ul">
               <li><a href= "mailto:mamr@hotmal.no" target="_blank"><i class="far fa-envelope"></i></a></li>
@@ -39,7 +84,8 @@
               <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjk04jXp4r4AhUZRfEDHQMbCSYQFnoECAcQAQ&url=https%3A%2F%2Fno.linkedin.com%2Fin%2Fmartin-mroz-28008121a&usg=AOvVaw1SSNET_dDG4MRj1uQ6PD__" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
               <li><a id="profile-link" href="https://github.com/martinMr79" target="_blank"><i class="fab fa-github"></i></a></li>
             </ul>        
-          </section>    
+    </section>    
+    <script src="JS/script.js"></script>
 </body>
 <footer>
   <p>Copyright&copy; Martin Mroz 2022<br>all rights reserved</p>

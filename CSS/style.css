@@ -233,6 +233,7 @@ footer p {
         margin: 0;
         font-size: 33px;
       }  
+
 }
 
 @media (max-width: 500px) {
@@ -250,3 +251,5 @@ footer p {
   
       }  
 }
+
+
