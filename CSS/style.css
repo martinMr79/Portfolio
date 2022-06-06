@@ -199,7 +199,15 @@ section {
     width: 50px;
     height: 50px;
     text-decoration: none;
-    color: black
+    color: black;
+    transition: 0.5s;
+}
+
+.contact-ul a:hover {
+    color: rgb(69, 6, 228);
+    transition: 0.3s;
+    transform: scale(1.1);
+    
 }
 
 hr {
@@ -281,11 +289,11 @@ footer p {
     background-color: black;
     text-decoration: none;
     padding: 12px 70px;
-    margin-top:50px;
-    border: 1px solid white;
+    margin-top: 50px;
     border-radius: 7px;
     transition: 0.5s;
     width: 265px;
+    border: 1px solid black;
   }
 
   .contact-form-button:hover {
@@ -337,10 +345,10 @@ footer p {
       }  
 }
 
-
   @media (max-width: 500px) {
     form {
         border-radius: 0;
+        background-color: rgb(195, 204, 201) ;
       }
 
       header h1 {
