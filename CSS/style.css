@@ -5,6 +5,12 @@
 }
 
 @font-face {
+    font-family: "Roboto-Light";
+    src: url("../fonts/Roboto/Roboto-Light.ttf")
+      format("truetype");
+  }
+
+@font-face {
     font-family: "Roboto-Thin";
     src: url("../fonts/Roboto/Roboto-Thin.ttf")
       format("truetype");
@@ -35,8 +41,10 @@
   nav a { 
       color: bisque;
       position: relative;
-      margin-left: 50px;
+      margin-right: 50px;
       text-decoration: none; 
+      font-family: 'MerriweatherSans', sans-serif;
+      font-size: 1.4rem;
   }
 
   nav a::after {
@@ -102,12 +110,12 @@
   }
 
   .contact-button {
-    font-family: 'MerriweatherSans', sans-serif;
-    font-size: 25px;
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 1.5rem;
     font-weight: 100;
     color: white;
     text-decoration: none;
-    padding: 12px 60px 12px 60px;
+    padding: 12px 70px 12px 70px;
     margin-top: 50px;
     border: 1px solid white;
     border-radius: 7px;
@@ -155,7 +163,7 @@
 
   .project-card img {
       max-width: 100%;
-      border: 1px solid black;
+      border: 3px solid black;
   }
   
 section {
@@ -193,7 +201,7 @@ section {
 hr {
     background-color: antiquewhite;    
     color: bisque;
-    width: 33%;
+    width: 25%;
     height: 5px;
 }
 
@@ -212,15 +220,17 @@ footer p {
     header h1 {
         margin-bottom: 18px;
         font-size: 42px;
-  
       }  
+
+      nav a { 
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 700px) {
     header h1 {
         margin: 0;
         font-size: 33px;
-  
       }  
 }
 
