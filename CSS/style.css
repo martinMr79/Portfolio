@@ -146,14 +146,17 @@
     margin-top: 65px;
   }
 
+  .about-section {
+    max-width: 900px;
+    margin: 0 auto;
+    
+  }
+
   .skills {
       font-size: 2.5rem;
       color: red;
       margin: 30px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 30px;
+      gap: 70px;
   }
 
   .projects-container {   
