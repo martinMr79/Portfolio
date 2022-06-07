@@ -146,7 +146,15 @@
     margin-top: 65px;
   }
 
-
+  .skills {
+      font-size: 2.5rem;
+      color: red;
+      margin: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+  }
 
   .projects-container {   
       display: flex;
@@ -154,7 +162,6 @@
       align-items: center;
       justify-content: center;
       margin: 60px auto 0;
-
   }
 
   .project-card {
