@@ -37,7 +37,7 @@
       position: fixed;
       background-color: black;
       padding: 20px;
-      z-index: 99;
+      z-index: 999;
       top: 0;
       left: 0;
       right: 0;
@@ -98,9 +98,10 @@
       color: white;
   }
 
-  header * {
-      z-index: 1;
-  }
+  header h1, header hr, header h2, header a {
+    z-index: 1;
+    }
+
 
   header h1 {
       margin-bottom: 40px; 
