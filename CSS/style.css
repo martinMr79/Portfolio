@@ -190,6 +190,7 @@
 
   .project-card:hover {
     transform: scale(1.05);
+
   }
 
   .project-card p {
@@ -212,12 +213,9 @@
 }  
 
 .project-github-link  { 
-  font-size: 30px;
-  display: flex;
+  font-size: 22px;
   align-items: center;
   justify-content: center;
-  border: 2px solid;
-  border-radius: 50%;
   margin: 10px 5px;
   width: 50px;
   height: 50px;
@@ -229,8 +227,7 @@
 
   .project-github-link:hover {
     color: rgb(69, 6, 228);
-    transition: 0.3s;
-    transform: scale(1.1);
+
   }
 
 
