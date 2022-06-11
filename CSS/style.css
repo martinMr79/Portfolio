@@ -148,6 +148,10 @@
     margin-top: 65px;
   }
 
+  .about-section h2 {
+      margin-bottom: 60px;
+  }
+
   .about-section {
     max-width: 800px;
     margin: 0 auto;
@@ -158,7 +162,7 @@
       
       font-size: 2.5rem;
       color: black;
-      margin: 35px 30px 3px 30px;
+      margin: 115px 30px 3px 30px;
       opacity: 0.5;
   }
 
