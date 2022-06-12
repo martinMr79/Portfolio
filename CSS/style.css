@@ -420,97 +420,94 @@ footer p {
   padding: 7px;
   margin-bottom: 30px;
 }
+
+@media (max-width: 1109px)  {
+  .project-card {
+      margin: 20px 10px;
+    }
+  .contact-section h2 { 
+    margin-top: 80px;
+  }  
+}
    
+@media (max-width: 1000px) {
+  header h1 {
+      margin-bottom: 18px;
+      font-size: 42px;
+    }  
+
+    header h2 {
+      font-size: 24px;
+    }  
+
+    nav a { 
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .thank-you-message{
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    padding-top: 10px;
+    
+  }
+
+  header h1 {
+      margin: 0;
+      font-size: 33px;
+    }  
+    
+    header h2 {
+      font-size: 23px;
+    }  
+
+}
+
+@media (max-width: 500px) {
+  form {
+      border-radius: 0;
+      background-color: rgb(195, 204, 201);
+      padding: 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 23px;
+    }
+
+    header h2 {
+      font-size: 15px;
+      margin-top: 15px;
+
+    }
+
+    nav a { 
+      margin-right: 15px;  
+    }
+
+    .skills i {
+    margin: 25px 20px 3px 20px;
+  }
+
+    .contact-ul a {
+      font-size: 20px;
+      margin: 15px 15px;
+  }
+
+  .project-card {
+    margin: 10px 0px;
+  }
+
+  } 
+
+
   @media (max-width: 321px) {
     header h1 {
         margin-bottom: 0;
         padding-top: 60px;
-        font-size: 15px;
-      }  
-
-      .contact-button {
-        margin-top: 0px;
-    }
-}
-
-  @media (max-width: 500px) {
-    form {
-        border-radius: 0;
-        background-color: rgb(195, 204, 201);
-        padding: 0;
-      }
-
-      header h1 {
-        margin: 0;
-        font-size: 23px;
-      }
-
-      header h2 {
-        font-size: 15px;
-        margin-top: 15px;
-
-      }
-
-      nav a { 
-        margin-right: 15px;  
-      }
-
-      .skills i {
-      margin: 25px 20px 3px 20px;
-    }
-
-      .contact-ul a {
-        font-size: 20px;
-        margin: 15px 15px;
-    }
-
-    .project-card {
-      margin: 10px 0px;
-    }
-
-    } 
-
-  @media (max-width: 700px) {
-    .thank-you-message{
-      font-size: 22px;
-      margin-bottom: 20px;
-    }
-    
-    .container {
-      padding-top: 10px;
       
-    }
-
-    header h1 {
-        margin: 0;
-        font-size: 33px;
       }  
-      
-      header h2 {
-        font-size: 23px;
-      }  
-}
-
-  @media (max-width: 1000px) {
-    header h1 {
-        margin-bottom: 18px;
-        font-size: 42px;
-      }  
-
-      header h2 {
-        font-size: 24px;
-      }  
-
-      nav a { 
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 1109px)  {
-    .project-card {
-        margin: 10px 0px;
-      }
-    .contact-section h2 { 
-      margin-top: 80px;
-    }  
-}
