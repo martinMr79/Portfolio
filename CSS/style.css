@@ -189,8 +189,7 @@
     max-width: 350px;
     text-decoration: none;
     transition: transform 0.3s ease;
-    
-    
+  
   }
 
   .project-card a {
@@ -454,20 +453,20 @@ footer p {
 
       nav a { 
         margin-right: 15px;  
+      }
+
+      .skills i {
+      margin: 25px 20px 3px 20px;
     }
 
-    .skills i {
-      margin: 25px 20px 3px 20px;
-  }
+      .contact-ul a {
+        font-size: 20px;
+        margin: 15px 15px;
+    }
 
-  .contact-ul a {
-    font-size: 20px;
-    margin: 15px 15px;
-}
-  .project-card {
-    margin: 10px 0px;
-}
-
+    .project-card {
+      margin: 10px 0px;
+    }
 
     } 
 
@@ -509,7 +508,7 @@ footer p {
 
 @media (max-width: 1109px)  {
     .project-card {
-        margin: 10px 5px;
+        margin: 10px 0px;
       }
     .contact-section h2 { 
       margin-top: 80px;
