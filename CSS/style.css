@@ -437,8 +437,12 @@ footer p {
   @media (max-width: 500px) {
     form {
         border-radius: 0;
-        background-color: rgb(195, 204, 201) ;
+        background-color: rgb(195, 204, 201);
+        padding: 0;
       }
+
+
+
 
       header h1 {
         margin: 0;
