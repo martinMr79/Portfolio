@@ -147,10 +147,12 @@
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 2rem;
     margin-top: 65px;
+
   }
 
   .about-section h2 {
       margin-bottom: 60px;
+  
   }
 
  
@@ -189,10 +191,12 @@
     text-decoration: none;
     transition: transform 0.3s ease;
     
+    
   }
 
   .project-card a {
     text-decoration: none;
+    
   }
 
   .project-card:hover {
@@ -462,6 +466,7 @@ footer p {
 
     .container {
       padding-top: 10px;
+      
     }
 
     header h1 {
@@ -493,4 +498,7 @@ footer p {
     .project-card {
         margin: 10px;
       }
+    .contact-section h2 { 
+      margin-top: 80px;
+    }  
 }
