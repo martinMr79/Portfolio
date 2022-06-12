@@ -169,7 +169,6 @@
   }
 
   .skills i {
-      
       font-size: 2.5rem;
       color: black;
       margin: 115px 30px 3px 30px;
@@ -456,12 +455,10 @@ footer p {
         margin-right: 15px;  
     }
 
-
-
+    .skills i {
+      margin: 25px 20px 3px 20px;
+  }
     } 
-
-
-
 
   @media (max-width: 700px) {
     .thank-you-message{
@@ -469,7 +466,6 @@ footer p {
       margin-bottom: 20px;
     }
     
-
     .container {
       padding-top: 10px;
       
