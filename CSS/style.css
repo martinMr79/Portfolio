@@ -432,8 +432,9 @@ footer p {
 
   @media (max-width: 321px) {
     header h1 {
-        margin: 0;
-        font-size: 19px;
+        margin-bottom: 0;
+        padding-top: 80px;
+        font-size: 17px;
   
       }  
 }
@@ -446,11 +447,13 @@ footer p {
 
       header h1 {
         margin: 0;
-        font-size: 27px;
+        font-size: 23px;
       }
 
       header h2 {
-        font-size: 17px;
+        font-size: 15px;
+        margin-top: 15px;
+
       }
     } 
 
