@@ -252,7 +252,8 @@
 }
 
 .contact-section h2 {
-  margin-top: 0;
+  margin-top: 0px;
+  padding-top: 62px;
 }
   
 .contact-ul {
