@@ -466,15 +466,8 @@ footer p {
     }  
 
     .contact-button {
-      font-size: 1.2rem;
-      font-weight: 100;
-      color: white;
-      text-decoration: none;
       padding: 10px 70px 10px 70px;
       margin-top: 10px;
-      border: 1px solid white;
-      border-radius: 7px;
-      transition: 0.5s;
   }
 
 
