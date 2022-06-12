@@ -423,13 +423,6 @@ footer p {
   margin-bottom: 30px;
 }
    
-.contact-page-footer {    
-  position: relative;
-  width:100%;
-  bottom: 0px;
-  margin-top: 0px;
-}
-
   @media (max-width: 321px) {
     header h1 {
         margin-bottom: 0;
