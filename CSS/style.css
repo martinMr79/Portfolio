@@ -81,7 +81,7 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      height: 100vh;
+      min-height: 100vh;
       position: relative;   
       text-align: center;
   }
@@ -133,7 +133,6 @@
     border: 1px solid white;
     border-radius: 7px;
     transition: 0.5s;
-    
 }
 
 
@@ -458,12 +457,26 @@ footer p {
 
   header h1 {
       margin: 0;
-      font-size: 33px;
+      font-size: 29px;
+      padding-top: 60px;
     }  
     
     header h2 {
-      font-size: 23px;
+      font-size: 21px;
     }  
+
+    .contact-button {
+      font-size: 1.2rem;
+      font-weight: 100;
+      color: white;
+      text-decoration: none;
+      padding: 10px 70px 10px 70px;
+      margin-top: 10px;
+      border: 1px solid white;
+      border-radius: 7px;
+      transition: 0.5s;
+  }
+
 
 }
 
@@ -509,7 +522,7 @@ footer p {
     header h1 {
       margin: 3px;
       font-size: 21px;
-      
+
       }  
 
     }
