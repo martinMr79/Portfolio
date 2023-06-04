@@ -209,7 +209,8 @@
   }
 
   .project-card img {
-      max-width: 100%;
+      width: 300px;
+      height: 190px;
       border: 1px solid black;
   }
   
